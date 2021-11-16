@@ -1,0 +1,148 @@
+{
+	"get-color": {
+		"scope": "css,less,scss",
+		"prefix": "clg",
+		"body": ["map-get(\\$mau, $0)"]
+	},
+	"get-font": {
+		"scope": "css,less,scss",
+		"prefix": "fg",
+		"body": ["map-get(\\$font, $0)"]
+	},
+	"media-up": {
+		"scope": "css,less,scss",
+		"prefix": "mdu",
+		"body": ["@media (min-width: $1) {", "\t$0", "}"]
+	},
+	"media-down": {
+		"scope": "css,less,scss",
+		"prefix": "m",
+		"body": ["@media (max-width: $1) {", "\t$0", "}"]
+	},
+	"media-down320": {
+		"scope": "css,less,scss",
+		"prefix": "m320",
+		"body": ["@media (max-width: 320px) {", "\t$0", "}"]
+	},
+	"media-down375": {
+		"scope": "css,less,scss",
+		"prefix": "m375",
+		"body": ["@media (max-width: 375px) {", "\t$0", "}"]
+	},
+	"media-down425": {
+		"scope": "css,less,scss",
+		"prefix": "m425",
+		"body": ["@media (max-width: 425px) {", "\t$0", "}"]
+	},
+	"media-down475": {
+		"scope": "css,less,scss",
+		"prefix": "m475",
+		"body": ["@media (max-width: 475px) {", "\t$0", "}"]
+	},
+	"media-down520": {
+		"scope": "css,less,scss",
+		"prefix": "m520",
+		"body": ["@media (max-width: 520px) {", "\t$0", "}"]
+	},
+	"media-downsm": {
+		"scope": "css,less,scss",
+		"prefix": "m560",
+		"body": ["@media (max-width: 560px) {", "\t$0", "}"]
+	},
+	"media-downmd": {
+		"scope": "css,less,scss",
+		"prefix": "m640",
+		"body": ["@media (max-width: 640px) {", "\t$0", "}"]
+	},
+	"media-downlg": {
+		"scope": "css,less,scss",
+		"prefix": "m750",
+		"body": ["@media (max-width: 750px) {", "\t$0", "}"]
+	},
+	"typography": {
+		"scope": "css,less,scss",
+		"prefix": "f",
+		"body": ["font-size: $1;", "font-weight: $2;", "color: $3;", "$0"]
+	},
+	"translateX": {
+		"scope": "css,less,scss",
+		"prefix": "trlx",
+		"body": ["transform: translateX($1);", "$0"]
+	},
+	"translateY": {
+		"scope": "css,less,scss",
+		"prefix": "trly",
+		"body": ["transform: translateY($1);", "$0"]
+	},
+	"translate": {
+		"scope": "css,less,scss",
+		"prefix": "trlc",
+		"body": ["transform: translate($1);", "$0"]
+	},
+	"flex-center": {
+		"scope": "css,less,scss",
+		"prefix": "fcc",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;"
+		]
+	},
+	"uppercase": {
+		"scope": "css,less,scss",
+		"prefix": "ttu",
+		"body": ["text-transform: uppercase;"]
+	},
+	"transition": {
+		"scope": "css,less,scss",
+		"prefix": "tsa",
+		"body": ["transition: all .3s ease;"]
+	},
+	"line-clamp": {
+		"scope": "css,less,scss",
+		"prefix": "lcl",
+		"body": [
+			"overflow: hidden;",
+			"text-overflow: ellipsis;",
+			"display: -webkit-box;",
+			"-webkit-box-orient: vertical;",
+			"-webkit-line-clamp: $1;"
+		]
+	},
+	"col-auto": {
+		"scope": "css,less,scss",
+		"prefix": "colat",
+		"body": [
+			"-ms-flex: 0 0 auto;",
+			"flex: 0 0 auto;",
+			"width: auto;",
+			"max-width: 100%;"
+		]
+	},
+	"col": {
+		"scope": "css,less,scss",
+		"prefix": "col",
+		"body": [
+			"-ms-flex-preferred-size: 0;",
+			"flex-basis: 0;",
+			"-ms-flex-positive: 1;",
+			"flex-grow: 1;",
+			"max-width: 100%;"
+		]
+	},
+	"col-d": {
+		"scope": "css,less,scss",
+		"prefix": "cold",
+		"body": ["-ms-flex: 0 0 $1;", "flex: 0 0 $1;", "max-width: $1;$0"]
+	},
+	"width": {
+		"scope": "css,less,scss",
+		"prefix": "wh",
+		"body": ["width: $1;", "height: $1;"]
+	},
+	"ff": {
+		"scope": "css,less,scss",
+		"prefix": "ffx",
+		"body": ["font-family: $1;"]
+	},
+}

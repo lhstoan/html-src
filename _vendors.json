@@ -1,0 +1,11 @@
+{
+    "fonts": [
+        "src/fonts/**"
+    ],
+
+    "js": [
+        "node_modules/jquery/dist/jquery.js"
+    ],
+
+    "css": []
+}
